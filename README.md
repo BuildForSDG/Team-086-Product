@@ -71,13 +71,29 @@ You should have **Python 3.5+** and **git** installed.
     poetry self update
     ``
 
-4. With poetry installed, you should install project dependecies by running:
+## Frontend Setup
+You should have **git** installed.
+
+1. CD into the front end directory
 
     ``
-    poetry install
+    cd <frontend Repository>
     ``
 
-    This will install pytest for running tests and flake8, linter for your project.
+2. install dependencies
+
+    ``
+    npm i
+    ``
+
+3. To build: After coding and ready to build, add and commit your changes then run
+    ..
+    npm run buildFront
+    ..
+
+    It will build and checkout to branch "gh-pages"
+
+4. Add and commit and then push
 
 #### To Note
 `src/app.py` is the entry to the project and source code should go into the `src` folder.
