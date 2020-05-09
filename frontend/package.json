@@ -13,7 +13,7 @@
     "reactstrap": "^8.4.1"
   },
   "scripts": {
-    "buildFront": "npm run build && git checkout gh-pages && mv frontend/build ./",
+    "buildFront": "npm run build && git checkout gh-pages && mv build ../",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
