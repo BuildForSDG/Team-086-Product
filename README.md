@@ -1,4 +1,4 @@
-A one-liner phrase describing this project or app
+This software tracks Small and Medium Enterprises business operation for proper record keeping.
 
 [![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
 
