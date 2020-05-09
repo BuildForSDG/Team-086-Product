@@ -1,10 +1,31 @@
 import React from 'react';
 
 import Auxiliary from "../../../hoc/Auxiliary";
+import about_1 from "../../../assets/images/about_1.jpg";
+import hero_2 from "../../../assets/images/hero_2.jpg";
+import img_1 from "../../../assets/images/img_1.jpg";
+import img_2 from "../../../assets/images/img_2.jpg";
+import img_3 from "../../../assets/images/img_3.jpg";
+import model_1 from "../../../assets/images/model_1.png";
+import model_1_bg from "../../../assets/images/model_1_bg.jpg";
+import model_2 from "../../../assets/images/model_2.png";
+import model_2_bg from "../../../assets/images/model_2_bg.jpg";
+import model_3 from "../../../assets/images/model_3.png";
+import model_3_bg from "../../../assets/images/model_3_bg.jpg";
+import model_4 from "../../../assets/images/model_4.png";
+import model_4_bg from "../../../assets/images/model_4_bg.jpg";
+import model_5 from "../../../assets/images/model_5.png";
+import model_5_bg from "../../../assets/images/model_5_bg.jpg";
+import person_1 from "../../../assets/images/person_1.jpg";
+import person_2 from "../../../assets/images/person_2.jpg";
+import person_3 from "../../../assets/images/person_3.jpg";
+import person_4 from "../../../assets/images/person_4.jpg"; 
+import product_1 from "../../../assets/images/product_1.png";
+import product_1_bg from "../../../assets/images/product_1_bg.jpg";
 
 const Body = () => (
   <Auxiliary>
-    <div className="site-blocks-cover overlay" style={{backgroundImage: 'url(images/hero_2.jpg)'}} data-aos="fade"
+    <div className="site-blocks-cover overlay" style={{backgroundImage: `url(${hero_2})`}} data-aos="fade"
       data-stellar-background-ratio="0.5">
       <div className="container">
         <div className="row align-items-center justify-content-center">
@@ -43,7 +64,7 @@ const Body = () => (
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="product-item">
               <figure>
-                <img src="images/model_1_bg.jpg" alt="Image" className="img-fluid" />
+                <img src={model_1_bg} alt="Image" className="img-fluid" />
               </figure>
               <div className="px-4">
                 <h3><a href="#">Wild West Hoodie</a></h3>
@@ -65,7 +86,7 @@ const Body = () => (
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="product-item">
               <figure>
-                <img src="images/model_2_bg.jpg" alt="Image" className="img-fluid" />
+                <img src={model_2_bg} alt="Image" className="img-fluid" />
               </figure>
               <div className="px-4">
                 <h3><a href="#">Wild West Hoodie</a></h3>
@@ -87,7 +108,7 @@ const Body = () => (
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="product-item">
               <figure>
-                <img src="images/model_3_bg.jpg" alt="Image" className="img-fluid" />
+                <img src={model_3_bg} alt="Image" className="img-fluid" />
               </figure>
               <div className="px-4">
                 <h3><a href="#">Wild West Hoodie</a></h3>
@@ -109,7 +130,7 @@ const Body = () => (
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="product-item">
               <figure>
-                <img src="images/model_4_bg.jpg" alt="Image" className="img-fluid" />
+                <img src={model_4_bg} alt="Image" className="img-fluid" />
               </figure>
               <div className="px-4">
                 <h3><a href="#">Wild West Hoodie</a></h3>
@@ -131,7 +152,7 @@ const Body = () => (
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="product-item">
               <figure>
-                <img src="images/model_5_bg.jpg" alt="Image" className="img-fluid" />
+                <img src={model_5_bg} alt="Image" className="img-fluid" />
               </figure>
               <div className="px-4">
                 <h3><a href="#">Wild West Hoodie</a></h3>
@@ -153,7 +174,7 @@ const Body = () => (
           <div className="col-lg-4 col-md-6 mb-5">
             <div className="product-item">
               <figure>
-                <img src="images/product_1_bg.jpg" alt="Image" className="img-fluid" />
+                <img src={product_1_bg} alt="Image" className="img-fluid" />
               </figure>
               <div className="px-4">
                 <h3><a href="#">Wild West Hoodie</a></h3>
@@ -178,7 +199,7 @@ const Body = () => (
     </div>
 
     <div className="site-blocks-cover inner-page-cover overlay get-notification"
-      style={{backgroundImage: 'url(images/hero_2.jpg)', backgroundAttachment: 'fixed'}} data-aos="fade">
+      style={{backgroundImage: `url(${hero_2})`, backgroundAttachment: 'fixed'}} data-aos="fade">
       <div className="container">
 
         <div className="row align-items-center justify-content-center">
@@ -209,7 +230,7 @@ const Body = () => (
         <div className="bg-white py-4 mb-4">
           <div className="row mx-4 my-4 product-item-2 align-items-start">
             <div className="col-md-6 mb-5 mb-md-0">
-              <img src="images/model_1_bg.jpg" alt="Image" className="img-fluid" />
+              <img src={model_1_bg} alt="Image" className="img-fluid" />
             </div>
 
             <div className="col-md-5 ml-auto product-title-wrap">
@@ -238,7 +259,7 @@ const Body = () => (
         <div className="bg-white py-4">
           <div className="row mx-4 my-4 product-item-2 align-items-start">
             <div className="col-md-6 mb-5 mb-md-0 order-1 order-md-2">
-              <img src="images/product_1_bg.jpg" alt="Image" className="img-fluid" />
+              <img src={product_1_bg} alt="Image" className="img-fluid" />
             </div>
 
             <div className="col-md-5 mr-auto product-title-wrap order-2 order-md-1">
@@ -271,7 +292,7 @@ const Body = () => (
       <div className="container">
         <div className="row align-items-lg-center">
           <div className="col-md-8 mb-5 mb-lg-0 position-relative">
-            <img src="images/about_1.jpg" className="img-fluid" alt="Image" />
+            <img src={about_1} className="img-fluid" alt="Image" />
             <div className="experience">
               <span className="year">Trusted Merchant</span>
               <span className="caption">htmlFor 50 years</span>
@@ -302,7 +323,7 @@ const Body = () => (
         <div className="row">
           <div className="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
             <div className="person text-center">
-              <img src="images/person_2.jpg" alt="Image" className="img-fluid rounded w-75 mb-3" />
+              <img src={person_2} alt="Image" className="img-fluid rounded w-75 mb-3" />
               <h3>John Rooster</h3>
               <p className="position text-muted">Co-Founder, President</p>
               <p className="mb-4">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos
@@ -317,7 +338,7 @@ const Body = () => (
           </div>
           <div className="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
             <div className="person text-center">
-              <img src="images/person_3.jpg" alt="Image" className="img-fluid rounded w-75 mb-3" />
+              <img src={person_3} alt="Image" className="img-fluid rounded w-75 mb-3" />
               <h3>Tom Sharp</h3>
               <p className="position text-muted">Co-Founder, COO</p>
               <p className="mb-4">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos
@@ -332,7 +353,7 @@ const Body = () => (
           </div>
           <div className="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
             <div className="person text-center">
-              <img src="images/person_4.jpg" alt="Image" className="img-fluid rounded w-75 mb-3" />
+              <img src={person_4} alt="Image" className="img-fluid rounded w-75 mb-3" />
               <h3>Winston Hodson</h3>
               <p className="position text-muted">Marketing</p>
               <p className="mb-4">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos
@@ -350,7 +371,7 @@ const Body = () => (
     </div>
 
     <div className="site-blocks-cover overlay get-notification" id="special-section"
-      style={{backgroundImage: 'url(images/hero_2.jpg)', backgroundAttachment: 'fixed', backgroundPosition: 'top'}}
+      style={{backgroundImage: `url(${hero_2})`, backgroundAttachment: 'fixed', backgroundPosition: 'top'}}
       data-aos="fade">
       <div className="container">
 
@@ -467,7 +488,7 @@ const Body = () => (
         <div>
           <div className="testimonial">
             <figure className="mb-4 d-block align-items-center justify-content-center">
-              <div><img src="images/person_3.jpg" alt="Image" className="w-100 img-fluid mb-3" /></div>
+              <div><img src={person_3} alt="Image" className="w-100 img-fluid mb-3" /></div>
             </figure>
             <blockquote className="mb-3">
               <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam
@@ -483,7 +504,7 @@ const Body = () => (
           <div className="testimonial">
 
             <figure className="mb-4 d-block align-items-center justify-content-center">
-              <div><img src="images/person_2.jpg" alt="Image" className="w-100 img-fluid mb-3" /></div>
+              <div><img src={person_2} alt="Image" className="w-100 img-fluid mb-3" /></div>
             </figure>
 
             <blockquote className="mb-3">
@@ -501,7 +522,7 @@ const Body = () => (
         <div>
           <div className="testimonial">
             <figure className="mb-4 d-block align-items-center justify-content-center">
-              <div><img src="images/person_4.jpg" alt="Image" className="w-100 img-fluid mb-3" /></div>
+              <div><img src={person_4} alt="Image" className="w-100 img-fluid mb-3" /></div>
             </figure>
             <blockquote className="mb-3">
               <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam
@@ -518,7 +539,7 @@ const Body = () => (
         <div>
           <div className="testimonial">
             <figure className="mb-4 d-block align-items-center justify-content-center">
-              <div><img src="images/person_1.jpg" alt="Image" className="w-100 img-fluid mb-3" /></div>
+              <div><img src={person_1} alt="Image" className="w-100 img-fluid mb-3" /></div>
             </figure>
             <blockquote className="mb-3">
               <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam
@@ -547,7 +568,7 @@ const Body = () => (
         <div className="row">
           <div className="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <div className="h-entry">
-              <img src="images/model_1_bg.jpg" alt="Image" className="img-fluid" />
+              <img src={model_1_bg} alt="Image" className="img-fluid" />
               <h2 className="font-size-regular"><a href="#" className="text-black">Lorem ipsum dolor sit amet, consectetur
                   adipisicing elit.</a></h2>
               <div className="meta mb-4">Ham Brook <span className="mx-2">&bullet;</span> Jan 18, 2019<span
@@ -559,7 +580,7 @@ const Body = () => (
           </div>
           <div className="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <div className="h-entry">
-              <img src="images/product_1_bg.jpg" alt="Image" className="img-fluid" />
+              <img src={product_1_bg} alt="Image" className="img-fluid" />
               <h2 className="font-size-regular"><a href="#" className="text-black">Lorem ipsum dolor sit amet, consectetur
                   adipisicing elit.</a></h2>
               <div className="meta mb-4">James Phelps <span className="mx-2">&bullet;</span> Jan 18, 2019<span
@@ -571,7 +592,7 @@ const Body = () => (
           </div>
           <div className="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <div className="h-entry">
-              <img src="images/model_5_bg.jpg" alt="Image" className="img-fluid" />
+              <img src={model_5_bg} alt="Image" className="img-fluid" />
               <h2 className="font-size-regular"><a href="#" className="text-black">Lorem ipsum dolor sit amet, consectetur
                   adipisicing elit.</a></h2>
               <div className="meta mb-4">James Phelps <span className="mx-2">&bullet;</span> Jan 18, 2019<span
@@ -680,7 +701,7 @@ const Body = () => (
           </div>
           <div className="col-md-3 ml-auto">
             <h2 className="footer-heading mb-4">Featured Product</h2>
-            <a href="#"><img src="images/product_1_bg.jpg" alt="Image" className="img-fluid mb-3" /></a>
+            <a href="#"><img src={product_1_bg} alt="Image" className="img-fluid mb-3" /></a>
             <h4 className="h5">Leather Brown Shoe</h4>
             <strong className="text-black mb-3 d-inline-block">$60.00</strong>
             <p><a href="#" className="btn btn-black rounded-0">Add to Cart</a></p>
