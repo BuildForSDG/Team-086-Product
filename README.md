@@ -1,5 +1,6 @@
 This software tracks Small and Medium Enterprises business operation for proper record keeping.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dbe2ad2f7c7744d7b4cc731cf915c2bd)](https://app.codacy.com/gh/BuildForSDG/Team-086-Product?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/Team-086-Product&utm_campaign=Badge_Grade_Settings)
 [![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
 
 
