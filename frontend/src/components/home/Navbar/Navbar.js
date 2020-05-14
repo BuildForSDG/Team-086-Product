@@ -14,7 +14,7 @@ const NavBar = (props) => (
           <div className="col-6 col-xl-2">
             <h1 className="mb-0 site-logo">
               <a href="index.html" className="text-black mb-0">
-                Selling<span className="text-primary">.</span>{" "}
+                SME Tracker<span className="text-primary">.</span>{" "}
               </a>
             </h1>
           </div>
@@ -25,25 +25,32 @@ const NavBar = (props) => (
             >
               <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li>
-                  <NavLink>Home</NavLink>
+                  <NavLink href="#home-section" rel="noopener noreferrer">
+                    Home
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink>Products</NavLink>
+                  <NavLink href="#products-section" rel="noopener noreferrer">
+                    Products
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink>About Us</NavLink>
+                  <NavLink href="#about-section" rel="noopener noreferrer">
+                    About Us
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink>Special</NavLink>
+                  <NavLink
+                    href="#testimonials-section"
+                    rel="noopener noreferrer"
+                  >
+                    Testimonials
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink>Testimonials</NavLink>
-                </li>
-                <li>
-                  <NavLink>Blog</NavLink>
-                </li>
-                <li>
-                  <NavLink>Contact</NavLink>
+                  <NavLink href="#contact-section" rel="noopener noreferrer">
+                    Contact
+                  </NavLink>
                 </li>
               </ul>
             </nav>
