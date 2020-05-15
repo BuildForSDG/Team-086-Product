@@ -11,7 +11,6 @@ on:
 
 jobs:
   test:
-     name: running test
     runs-on: ubuntu-latest
     strategy:
       max-parallel: 4
