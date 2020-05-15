@@ -1,0 +1,9 @@
+{
+    "SECRET_KEY": "sme123456abcdef",
+    "ALLOWED_HOSTS": ["*"],
+    "DEBUG": true,
+    "DATABASE": {
+        "ENGINE": "django.db.backends.sqlite3", 
+        "NAME": "smeTracker.db"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "DATABASE": {
+        "NAME": "memory:"
+    },
+    "DEBUG": false
+}
