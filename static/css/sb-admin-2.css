@@ -54,7 +54,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, figcaption, figure, header, hgroup, main, nav, section {
   display: block;
 }
 
@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #858796;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(207, 187, 187);
 }
 
 [tabindex="-1"]:focus {
@@ -10983,7 +10983,7 @@ form.user .btn-user {
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
 
-footer.sticky-footer {
+/* footer.sticky-footer {
   padding: 2rem 0;
   flex-shrink: 0;
 }
@@ -10991,8 +10991,13 @@ footer.sticky-footer {
 footer.sticky-footer .copyright {
   line-height: 1;
   font-size: 0.8rem;
+} */
+
+footer {
+  background-color: #224ac2;
+  /* color: rgb(196, 189, 189); */
 }
 
-body.sidebar-toggled footer.sticky-footer {
-  width: 100%;
-}
+ body.sidebar-toggled footer.sticky-footer {
+  width: 100%; 
+} 

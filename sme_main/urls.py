@@ -1,14 +1,8 @@
 from django.contrib import admin
 
-from django.urls import path
-# include
+from django.urls import path, include
 
-
-from apps.common.views import HomeView, SignUpView, DashboardView
-
-# DashboardView
-
-#  ProfileUpdateView, ProfileView
+from apps.common.views import HomeView, SignUpView, DashboardView, ProfileUpdateView, ProfileView
 
 from django.contrib.auth import views as auth_views
 
@@ -19,8 +13,8 @@ urlpatterns = [
 
     path('dashboard/', DashboardView.as_view(), name='dashboard'),
 
-    # path('profile-update/', ProfileUpdateView.as_view(), name='profile-update'),
-    # path('profile/', ProfileView.as_view(), name='profile'),
+    path('profile-update/', ProfileUpdateView.as_view(), name='profile-update'),
+    path('profile/', ProfileView.as_view(), name='profile'),
 
     # Authentication 
     path('register/', SignUpView.as_view(), name="register"),
@@ -68,8 +62,8 @@ urlpatterns = [
 ]
 
 
-# from django.conf import settings
-# from django.conf.urls.static import static
+from django.conf import settings
+from django.conf.urls.static import static
 
-# if settings.DEBUG:
-    # urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -184,7 +184,7 @@ DEFAULT_APPS = [
 
 THIRD_PARTY_APPS = [
     'crispy_forms',
-    # 'django_cleanup',
+    'django_cleanup',
     # 'social_django',
 ]
 

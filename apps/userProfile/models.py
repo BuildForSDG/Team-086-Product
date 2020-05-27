@@ -2,7 +2,9 @@ from django.db import models
 
 # Create your models here.
 from django.contrib.auth.models import User
+
 from django.db.models.signals import post_save
+
 from django.dispatch import  receiver
 
 
@@ -20,6 +22,7 @@ class Profile(models.Model):
     bio = models.TextField(max_length=500, blank=True)
     phone_number = models.CharField(max_length=12, blank=True)
     birth_date = models.DateField(null=True, blank = True)
+    profile_image = models.ImageField(default='avartarsite.jpg', upload_to='users/', null=True, blank=True)
 
     def __str__(self):
         return '%s %s' % (self.user.first_name, self.user.last_name)
